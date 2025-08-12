@@ -13,7 +13,7 @@ conf = {
     'auto.offset.reset': 'earliest'
 }
 
-uri = "mongodb+srv://Devendra:devendra@devendra.e3kfvth.mongodb.net/?retryWrites=true&w=majority&appName=Devendra"
+uri = "mongodb+srv://Devendra:devendra@<your>.mongodb.net/?retryWrites=true&w=majority&appName=Devendra"
 client = MongoClient(uri)
 db = client['kafka_db']
 coll = db['kafka_messages']
